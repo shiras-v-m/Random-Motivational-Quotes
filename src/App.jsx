@@ -31,7 +31,7 @@ function App() {
         <div className="card">
           {
             loading && <div className="loading"></div>}
-          <div className="quoteTxt">
+          <div className="quoteContainer">
             {!loading && <h2>{quote}</h2>}
           </div>
 
